@@ -1,4 +1,4 @@
-# Replit-
+# Replit
 Python projects I have done 
 print("Welcome to your Adventure Story Simulator.")
 print ()
