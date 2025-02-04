@@ -58,9 +58,6 @@ def linktree():
     <li><a href="">YouTube (LessonHacker)</a></li>
     <li><a href="">replit (@DavidAtReplit)</a></li>
   </ul>
-
-
-
   
   <script src="script.js"></script>
 
