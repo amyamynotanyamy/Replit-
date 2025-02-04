@@ -1,24 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en"> 
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>My Portfolio</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amy's Project</title>
 </head>
 
 <body>
+  <h1>Amy's Project</h1>
+  <h2>Welcome to my coding project website!</h2>
+  <p>I am coding this website from scratch.</p>
 
-  <h1>David's Portfolio</h1>
-  <h2>Day 56 Solution</h2>
-  <p>So, day 56 was all about using csv reading and file and folder manipulation to make 100 files in dozens of folders.
-    This was tricky because the names of the folders and files were based on the top 100 streaming songs and so weren't
-    simple to encode.</p>
-  <a href="https://replit.com/@DavidAtReplit/Day-056-Solution#main.py"><img src="images/56.png" width="500px"></a>
+  <h2>This is the link to my Github</h2>
+  <p>Here is a link to my projects.</p>
 
-  <script src="script.js"></script>
+  <img src="IMG_5949.jpg" width="30%" alt="Project Image">
+  <p><a href="https://github.com/amyamynotanyamy?tab=repositories">Click here to see my projects</a></p>
 
-</body>
+  <h2>Cool Projects Include:</h2>
+  <ul>
+    <li>Hangman</li>
+    <li>Rock, Paper, Scissors</li>
+    <li>Guessing Game</li>
+  </ul>
 
-</html>
+  <p><a href="page2.html">Go to page 2</a></p
+
