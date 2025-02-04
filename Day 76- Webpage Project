@@ -6,7 +6,6 @@ app = Flask(__name__, static_url_path="/static")
 def index():
   return "Go to /portfolio or /linktree, not here!"
 
-
 @app.route('/portfolio')
 def portfolio():
   page = f"""<!DOCTYPE html>
