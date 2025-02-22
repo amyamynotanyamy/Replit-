@@ -4,7 +4,18 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    profile = {
+        'name': 'John Doe',
+        'bio': 'Software Developer | Tech Enthusiast | Blogger',
+        'email': 'johndoe@example.com',
+        'skills': ['Python', 'Flask', 'Django', 'JavaScript', 'React'],
+        'social_links': {
+            'GitHub': 'https://github.com/johndoe',
+            'LinkedIn': 'https://linkedin.com/in/johndoe',
+            'Twitter': 'https://twitter.com/johndoe'
+        }
+    }
+    return render_template('profile.html', profile=profile)
 
 if __name__ == '__main__':
     app.run(debug=True)
