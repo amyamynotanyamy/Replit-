@@ -1,1 +1,6 @@
-Through the above projects, I am capable of creating projects such as Hangman, a Rock-Paper-Scissors game, and connecting to APIs to collect data online for research and analysis.
+# This is a simple Python program that prints "Hello, World!"
+def greet():
+    print("Hello, World!")
+
+# Call the function
+greet()
